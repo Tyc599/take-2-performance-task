@@ -1,14 +1,22 @@
 {
-    "name": "take 2 makercode",
+    "name": "take 2 makercode - Copy",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "multiplayer": "*",
+        "controller": "*",
+        "arcade-split-screen": "github:riknoll/arcade-split-screen#v0.0.3",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
